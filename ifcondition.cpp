@@ -17,3 +17,11 @@ int Demo1(int n)
 		nRet = 5;
 	return nRet;
 }
+
+int Demo2(int n)
+{
+	int nRet;
+	
+	//nRet isn't intinailized.  ???
+	return nRet;
+}
